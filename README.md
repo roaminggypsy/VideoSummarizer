@@ -3,6 +3,7 @@
 ## Note
 This is a just a brief draft. 
 Complete descrition and code will be uploaded once the project evaluation is done.
+![Code Snippet](codeSnippet.png)
 
 ## Problem Description
 
