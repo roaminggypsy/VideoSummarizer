@@ -36,7 +36,6 @@ Instead of calculating pixel-by-pixel difference, we divide the frame into macro
 
 In this method, we can avoid some false hits caused by object or camera motions.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e7e0c69e-1e6e-426a-947b-e84a060e1d2a/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e7e0c69e-1e6e-426a-947b-e84a060e1d2a/Untitled.png)
 
 Two factors that will influence the quality of this method
 
