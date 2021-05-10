@@ -68,7 +68,7 @@ This method can remove some false hits due to motion and light changes (some ill
 1. Edge Change Ratio: The ECR attempts to compare the actual content of two frames. It transforms both frames to edge pictures, i. e. it extracts the probable outlines of objects within the pictures (see edge detection for details). Afterwards it compares these edge pictures using dilation to compute a probability that the second frame contains the same objects as the first frame.
 2. Different combinations of scoring methods
 
-## Decision:
+### Decision:
 
 In the decision phase the following approaches are usually used:
 
