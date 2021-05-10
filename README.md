@@ -1,5 +1,9 @@
 # VideoSummarizer
 
+## Note
+This is a just a brief draft. 
+Complete descrition and code will be uploaded once the project evaluation is done.
+
 ## Problem Description
 
 A 9 minutes video is represented by a set of frames (rgb file) and an audio file. You are asked to summarize it into a 90 seconds video to include main or important occurrences, scenes, etc., and to provide an easily interpretable or a highlight synopsis of the video.
@@ -33,6 +37,8 @@ SAD is very sensitive to luminance changes or object and camera motion, leading 
 → Sum of absolute differences based on blocks
 
 Instead of calculating pixel-by-pixel difference, we divide the frame into macro-blocks of a selected size. For each macro-block, we find the best match block within a selected range in the previous frame, and calculate the difference. The whole frame difference would be the sum of differences between macro-blocks and their best match blocks.
+
+![Block difference illustrration](blocks.png)
 
 In this method, we can avoid some false hits caused by object or camera motions.
 
